@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link href= "css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/wss.css">
+
+    <link rel="icon" type="image/x-icon" href="assets/a.ico">
+
+    <title>Cadastro</title>
+  </head>
+
+  <body class="color-wss">
+      <!-- inicio Navebar-->     
+
+          <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+              <div class="container px-5">
+                  <a class="navbar-brand" href="index.html">Home</a>                
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                      <ul class="navbar-nav ms-auto">
+                          <li class="nav-item"><a class="nav-link" href="Contatos.html">contatos</a></li>
+                          <li class="nav-item"><a class="nav-link" href="quemsomos.html">quem somos</a></li>
+                          <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastrar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+        <form class="container margen " >
+            <div class="form-control ">
+
+                <div class="form-group">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label for="inputAddress">Nome </label>
+                        <input type="text" class="form-control" placeholder="Ex.. Carlos Dos S. Ferminio ">
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="inputAddress">Data</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="col-sm-2">
+                        <label for="form-group">Sexo</label>
+                        <select id ="sexo" class="form-control" >
+                            <option>Outros</option>
+                            <option>Masculino</option>
+                            <option>Feminio</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="inputAddress">Celular</label>
+                        <input type="text" class="form-control" placeholder="(99)99999-9999">
+                    </div>
+
+                </div>           
+                <div class="form-group">
+                    <label for="inputAddress">Endereço</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="row">
+                    <div class="form-group col-sm">
+                        <label for="inputState">Estado</label>
+                        <select id="inputState" class="form-control">
+                            <option>AC</option>
+                            <option>AL</option>
+                            <option>AP</option>
+                        </select>
+                    </div>
+                    <div class=" col-sm">
+                        <label for="inputCity">Cidade</label>
+                        <input type="text" class="form-control" id="inputCity">
+                        
+                    </div>
+                    <div class="form-group col-sm">
+                        <label for="inputZip">CEP</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn color-wss">Cadastrar</button>
+            </div>
+
+            
+
+
+        </form>
+
+        <footer class="py-5 bg-black margen-baixo">
+            <div class="container px-5"><p class=" text-center text-white small ">Editor &copy; Wisly Santos 2022</p></div>
+        </footer>
+    
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+    </body>
+</html>
